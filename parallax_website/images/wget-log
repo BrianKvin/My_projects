@@ -1,0 +1,6 @@
+--2023-03-26 21:13:41--  https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhomepage-hero.jpg
+Resolving www.frontendmentor.io (www.frontendmentor.io)... 172.66.40.226, 2606:4700:3108::ac42:28e2, 2606:4700:3108::ac42:2b1e
+Connecting to www.frontendmentor.io (www.frontendmentor.io)|172.66.40.226|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2023-03-26 21:13:43 ERROR 400: Bad Request.
+
