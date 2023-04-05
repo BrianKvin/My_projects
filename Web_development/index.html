@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type="text/css" href="./styles.css">
+    <title>My Devslopes Website</title>
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="topnav-right"><a href="#signup">Sign In</a></li>
+            <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+            <!-- Unicode character table - trigram -->
+            <li class="dropdownIcon"><a href="javasript:void(0):" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftSide-col">
+                    <h1 class="large">Crazy Radness</h1>
+                    <h1 class="large">Made for Developers</h>
+                </div>
+                <form>
+                    <div class="leftSide-col">
+                        <h2>Username</h2>
+                        <input class="inputbox" name="Username" type="text" placeholder="Username">
+                        <h2>Password</h2>
+                        <input class="inputbox" name="Password" type="text" placeholder="Password">
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightSide-col">
+                    <div class="videoContainer">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YPE2dO5sII0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <h1 class="section2Header">The Standards of Awesomeness</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="Devslopes Icon.avif" height="100" width="100">
+                    </div>
+                    <label>Chat with Me</label>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id eaque in blanditiis, sapiente eum a animi! Impedit sunt voluptates tenetur.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="Devslopes Icon.avif" height="100" width="100">
+                    </div>
+                    <label>Learn to Code</label>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id eaque in blanditiis, sapiente eum a animi! Impedit sunt voluptates tenetur.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="Devslopes Icon.avif" height="100" width="100">
+                    </div>
+                    <label>Build an Empire</label>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id eaque in blanditiis, sapiente eum a animi! Impedit sunt voluptates tenetur.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, unde a? Sapiente consequuntur sit libero dolores animi voluptate minima quod aperiam alias ex. Maiores, ullam earum illo odio sed ducimus amet deleniti, alias commodi ipsa iusto officia esse quaerat? Asperiores suscipit quo sunt perferendis ullam, accusamus pariatur magnam praesentium numquam.</p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="slopeIcon">
+                    <img src="ios_slope.png" height="350" width="350">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobileStack">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Products</h1>
+                <ul>
+                    <li>Computers</li>
+                    <li>iPads</li>
+                    <li>iPhones</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Learn More</h1>
+                <ul>
+                    <li>Developers</li>
+                    <li>Designers</li>
+                    <li>Hackers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Support</h1>
+                <ul>
+                    <li>Help</li>
+                    <li>QA</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                /* change topnav to topnav.responsive*/ 
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
