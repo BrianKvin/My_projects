@@ -143,7 +143,8 @@ ul.topnav li.dropdownIcon {
 
 /*######## custom styles ##########*/
 #section-1-gradient {
-    background: linear-gradient(#076DFF, #65a5ff);
+    /* background: linear-gradient(#076DFF, #65a5ff); */
+    background-color: darkcyan;
 }
 
 /* css shadow generator */
