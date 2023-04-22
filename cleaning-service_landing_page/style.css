@@ -503,7 +503,7 @@ textarea.input-control {
     text-transform: capitalize;
     position: relative;
     padding-left: 30px;
-    list-style: circle;
+    /* list-style: circle; */
 }
 .pricing-body li+li {
     margin-top: 10px;
@@ -514,6 +514,12 @@ textarea.input-control {
     top: 5px;
     font-size: var(--fs-sm);
 }
+
+/* @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    src: url('all.min.css') format('woff2');
+} */
 
 /* team  */
 .team-item {
