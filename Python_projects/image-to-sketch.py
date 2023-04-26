@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import cv2
-image = cv2.imread("/home/bk/My_projects/Python_projects/viv.jpg")
+image = cv2.imread("/home/bk/My_projects/Python_projects/whatsapp.jpg")
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 cv2.imwrite("gray.png", gray_image)
 inverted_image = 255 - gray_image
